@@ -24,3 +24,12 @@ Vai su [github.com](https://github.com/) e registrati.
 ## 5. Fatto! 🚀
 Vercel ti darà un link (es. `alpha-vision.vercel.app`).
 Puoi inviarti questo link su WhatsApp e aprirlo dal telefono. L'app funzionerà ovunque!
+
+## ⚠️ RISOLUZIONE PROBLEMI (Errore 404)
+Se vedi "404: NOT_FOUND", significa che Vercel non ha capito che è un progetto Vite.
+
+1. Vai su Vercel > Settings > **General**.
+2. Scorri fino a "Build & Development Settings".
+3. Assicurati che **Framework Preset** sia impostato su **Vite**.
+4. Assicurati che **Output Directory** sia impostato su `dist`.
+5. Se cambi qualcosa, vai su "Deployments" e clicca "Redeploy" sull'ultimo commit.
